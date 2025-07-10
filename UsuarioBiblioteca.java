@@ -13,5 +13,12 @@ public abstract class UsuarioBiblioteca {
 
     public abstract double calcularMulta();
 
+    public String getNome() {
+        return nome;
+    }
+
+    public Integer getDiasAtraso() {
+        return diasAtraso;
+    }
 }
 

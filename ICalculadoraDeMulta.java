@@ -1,3 +1,4 @@
 public interface ICalculadoraDeMulta {
-    double escolhaDeMulta(int diasAtraso);
+    //Inteface recebe o usuário
+    double escolhaDeMulta(UsuarioBiblioteca usuario);
 }
